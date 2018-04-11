@@ -14,8 +14,10 @@ matplotlib
 ### How to run
 
 Run the `train.py` file. For now the only arguments that can be passed are network type (which filter to use - 5x5 or 11x11), and number of epochs.
+`net1` and `net2` are two valid values for `--network` argument.
+
 ```
-python train.py --network 'net1'/'net2'
+python train.py --network 'net1'
 ```
 
 
